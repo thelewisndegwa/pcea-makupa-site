@@ -176,20 +176,20 @@ footer {
   margin: 0 auto;
 }
 
-.left {
+.footer-container .left {
   text-align: left;
 }
 
-.right a {
+.footer-container .right a {
   margin: 0 10px;
   color: #666;
 }
 
-.right a:hover {
+.footer-container .right a:hover {
   color: #333;
 }
 
-#year {
+.footer-container #year {
   font-weight: bold;
 }
 
@@ -198,12 +198,22 @@ footer {
     flex-direction: column;
   }
   
-  .right {
+  .footer-container  .right {
     margin-top: 20px;
   }
   
-  .right a {
+  .footer-container .right a {
     display: block;
     margin: 10px 0;
   }
 }
+
+/* .map{
+  display:flex;
+}
+.left{
+float: left;
+}
+.right{
+float: right;
+} */
