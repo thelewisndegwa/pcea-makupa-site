@@ -13,8 +13,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   padding: 0 40px 0 50px;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap;  
 }
 nav .logo{
   color: #fff;
@@ -160,3 +159,51 @@ input[type="checkbox"]{
 }
 
 
+footer {
+  background-color:beige;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #070707;
+  border-top: 1px solid #ccc;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  text-align: left;
+}
+
+.right a {
+  margin: 0 10px;
+  color: #666;
+}
+
+.right a:hover {
+  color: #333;
+}
+
+#year {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  
+  .right {
+    margin-top: 20px;
+  }
+  
+  .right a {
+    display: block;
+    margin: 10px 0;
+  }
+}
